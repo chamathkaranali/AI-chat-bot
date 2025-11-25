@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div id="output"></div>
-    <div id="loarding" style="display:none;">loarding</div>
-    <input type="text" id="txtpromt">
-    <button onclick="sendPrompt()">Send</button>
-    <script src="app.js"></script>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Yoo chatbot</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body class="bgimage">
+        <div class="chat-box">
+            <div><h1>ChatBot</h1></div>
+            <div id="output"></div>
+            <div id="loarding" style="display:none;">Loading...</div>
+            <input type="text" id="txtpromt">
+            <div id="b1"><button onclick="sendPrompt()">Send</button></div>
+        </div>
+
+        <script src="app.js"></script>
+    </body>
 </html>
